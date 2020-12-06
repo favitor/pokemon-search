@@ -1,0 +1,17 @@
+.App {
+    background-color: #f0f0f0;
+    color: #000;
+    overflow: auto;
+    height: 100vh;
+}
+
+.App-title {
+    text-align: center;
+}
+
+.Background {
+    background-image: url(../img/bg/bg.png);
+    height: 100vh;
+    width: 195vh;
+    position: absolute;
+}

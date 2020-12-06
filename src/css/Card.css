@@ -1,0 +1,172 @@
+.Card-container {
+    margin: auto;
+    position: relative;
+    width: 30rem;
+}
+
+.Card {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #222224;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem auto;
+    min-height: 30rem;
+    position: relative;
+    width: 30rem;
+}
+
+.Card--title-container {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex: 0 0 auto;
+    height: 5rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 0.5rem 2rem;
+    position: relative;
+    width: 100%;
+}
+
+.Card-title {
+    font-size: 1.4rem;
+    margin: 0;
+    order: 0;
+    text-transform: uppercase;
+}
+
+.Card-id {
+    display: inline-block;
+    margin-left: 1.2rem;
+    order: 2;
+    position: relative;
+}
+
+.Card-genus {
+    margin: 0 auto 0 0.4rem;
+    font-size: 0.9rem;
+}
+
+.Card-id::before {
+    background-image: url('../img/content/pokeball.png');
+    background-size: cover;
+    content: '';
+    height: 1.2rem;
+    left: -1.5rem;
+    position: absolute;
+    width: 1.2rem;
+}
+
+.Card--type-container {
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-around;
+    margin: 0.8rem auto 2rem 1.8rem;
+    width: 9.5rem;
+}
+
+.Card-type {
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-variant: small-caps;
+    font-weight: 600;
+    padding: 0.15rem 0.25rem;
+}
+
+.Card--image-container {
+    background-color: white;
+    box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.2);
+    height: 10rem;
+    width: 10rem;
+}
+
+.Card--image-container img {
+    height: 100%;
+}
+
+.Card--description-container {
+    align-self: flex-end;
+    background-color: white;
+    flex: 0 0 auto;
+    margin-top: 1rem;
+    padding: 2rem 2rem 1rem;
+    width: 100%;
+}
+
+.Card--description-container h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.Card-description {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.Card--stats-container {
+    -webkit-padding-start: 0;
+    align-self: center;
+    height: 8rem;
+    margin: 0;
+    width: 14rem;
+}
+
+.Card--stats-container li {
+    display: flex;
+    font-variant: small-caps;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+}
+
+.Card-additional-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-variant: small-caps;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 1.5rem 1rem;
+    width: 17rem;
+}
+
+.Card-btnNav {
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    height: 3rem;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 3rem;
+}
+
+.Card-btnBack {
+    left: -3rem;
+}
+
+.Card-btnForward {
+    color: rgba(231, 56, 39, 1);
+    right: -3rem;
+}
+
+.Card-btnAddToList {
+    background-color: rgba(231, 56, 39, 1);
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    height: 1.8rem;
+    position: absolute;
+    right: -0.5rem;
+    top: -0.5rem;
+    width: 1.8rem;
+    z-index: 1;
+}
